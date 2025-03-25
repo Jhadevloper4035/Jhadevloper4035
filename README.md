@@ -38,6 +38,9 @@ My primary interest is in full-stack _**Web Development**_, and I've been writin
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-000?&logo=JavaScript)
 ![Node.js](https://img.shields.io/badge/-Node.js-000?&logo=Node.js)
+![Java](https://img.shields.io/badge/-Java-000?&logo=Java)
+![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-000?&logo=SpringBoot)
+![Flask](https://img.shields.io/badge/-Flask-000?&logo=Flask)
 ![Express.js](https://img.shields.io/badge/-Express.js-000?&logo=Express)
 
 ##### Databases & Storage
@@ -45,6 +48,8 @@ My primary interest is in full-stack _**Web Development**_, and I've been writin
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-000?&logo=PostgreSQL)
 ![SQLite](https://img.shields.io/badge/-SQLite-000?&logo=SQLite)
 ![Redis](https://img.shields.io/badge/-Redis-000?&logo=Redis)
+![Supabase](https://img.shields.io/badge/-Supabase-000?&logo=Supabase)
+![Firebase](https://img.shields.io/badge/-Firebase-000?&logo=Firebase)
 
 ##### DevOps & Tools
 
