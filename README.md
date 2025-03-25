@@ -50,6 +50,8 @@ My primary interest is in full-stack _**Web Development**_, and I've been writin
 ![Redis](https://img.shields.io/badge/-Redis-000?&logo=Redis)
 ![Supabase](https://img.shields.io/badge/-Supabase-000?&logo=Supabase)
 ![Firebase](https://img.shields.io/badge/-Firebase-000?&logo=Firebase)
+![SQL](https://img.shields.io/badge/-SQL-000?&logo=SQL)
+![MongoDB](https://img.shields.io/badge/-MongoDB-000?&logo=MongoDB)
 
 ##### DevOps & Tools
 
