@@ -10,7 +10,7 @@ I'm a software engineer and have an undergraduate degree in Information Technolo
 
 ### ⚡ Fun facts
 
-I grew up taking things apart, starting with toys, and later moved on to computers, laptops, phones, etc. By the age of 10, I got bored of cartoons and started watching shows like _How it's Made_ and _Mega Factories_ on _Discovery_ and _National Geographic_.
+From an early age, I was drawn to the logic behind technology, starting with simple scripts and gradually exploring the depths of development. As I built and broke things, I became fascinated by how algorithms and data structures shape efficient solutions. Debugging felt less like fixing errors and more like solving intricate puzzles, each one pushing me to think deeper and code smarter.
 
 ### 🌱 Interests
 
