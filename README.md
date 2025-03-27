@@ -6,7 +6,7 @@
 
 ## I'm Navroj Kumar Jha
 
-I'm a software engineer and have an undergraduate degree in Information Technology. I'm a tech enthusiast and actively remain on the watch for new tech products. I like _learning about how things work_ and am _fascinated about how computers work_.
+I have an undergraduate degree in Information Technology. I'm a tech enthusiast and actively remain on the watch for new tech products. I like _learning about how things work_ and am _fascinated about how computers work_.
 
 ### ⚡ Fun facts
 
@@ -22,7 +22,7 @@ I'm currently involved in backend development projects, focusing on building sca
 
 ### 📚 Learning ...
 
-Lately, I've been inquisitive about the architecture of software and systems, diving deep into backend technologies and system performance optimization.
+Now, I’m focused on backend development, building scalable systems while expanding my Spring Boot and Flask expertise.
 
 ### 🛠 Technical Proficiency
 
