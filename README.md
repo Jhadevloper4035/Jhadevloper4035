@@ -6,85 +6,105 @@
 
 ## I'm Navroj Kumar Jha
 
-I have an undergraduate degree in Information Technology. I'm a tech enthusiast and actively remain on the watch for new tech products. I like _learning about how things work_ and am _fascinated about how computers work_.
+I hold an undergraduate degree in Information Technology. I'm a backend developer and DevOps engineer who enjoys building scalable systems, automating infrastructure, and shipping reliable software. I'm fascinated by _how distributed systems work_ and passionate about _bridging the gap between development and operations_.
 
-### ⚡ Fun facts
+---
 
-From an early age, I was drawn to the logic behind technology, starting with simple scripts and gradually exploring the depths of development. As I built and broke things, I became fascinated by how algorithms and data structures shape efficient solutions. Debugging felt less like fixing errors and more like solving intricate puzzles, each one pushing me to think deeper and code smarter.
+### ⚡ About Me
+
+From writing my first scripts to deploying production workloads on cloud infrastructure, my journey has been driven by curiosity. I gravitate toward the full lifecycle of software — from writing clean backend APIs to provisioning cloud resources with Infrastructure as Code. I find deep satisfaction in building systems that are not just functional, but observable, resilient, and easy to operate.
+
+---
 
 ### 🌱 Interests
 
-I'm interested in _**Interactive Multimedia**_, _**Creative Coding**_, and _**Visual and Abstract Programming**_.
+I'm interested in _**Cloud Infrastructure**_, _**Backend Systems Design**_, and _**DevOps Automation**_.
 
-### 🌟 Working on ...
+---
 
-I'm currently involved in backend development projects, focusing on building scalable and efficient systems.
+### 🌟 Currently Working On ...
+
+Building and maintaining production-grade backend services with Node.js, while expanding my Infrastructure as Code practice with Terraform and Ansible on AWS.
+
+---
 
 ### 📚 Learning ...
 
-Now, I’m focused on backend development, building scalable systems while expanding my Spring Boot and Flask expertise.
+Deepening my knowledge of Kubernetes orchestration, AWS solutions architecture, and CI/CD pipeline optimization. Actively working toward AWS certification.
+
+---
 
 ### 🛠 Technical Proficiency
 
-My primary interest is in full-stack _**Web Development**_, and I've been writing web stack code for the last few years. I particularly love working on building interactive apps that people can engage with.
+My core focus is **Backend Development** and **DevOps Engineering** — writing robust server-side code and automating everything from infrastructure provisioning to deployment pipelines.
 
-- I prefer using `JavaScript` for backend and frontend development.
-- I have experience with `Dockerized` applications and containerized deployment.
-- I am exploring cloud technologies and observability tools.
+- I build backend services and REST APIs primarily with `Node.js` and `JavaScript`.
+- I provision and manage cloud infrastructure on `AWS` using `Terraform` for IaC.
+- I automate configuration management and application deployment with `Ansible`.
+- I containerize and orchestrate workloads using `Docker`, `Docker Compose`, and `Kubernetes`.
+- I build and maintain `CI/CD` pipelines with `GitHub Actions` and `Jenkins`.
+- I design and work with both `MongoDB` and `PostgreSQL` depending on the use case.
 
-#### Languages & Technologies
+---
 
-##### Programming
+### 🧰 Tech Stack
+
+#### Backend Development
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-000?&logo=JavaScript)
 ![Node.js](https://img.shields.io/badge/-Node.js-000?&logo=Node.js)
-![Java](https://img.shields.io/badge/-Java-000?&logo=Java)
-![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-000?&logo=SpringBoot)
-![Flask](https://img.shields.io/badge/-Flask-000?&logo=Flask)
 ![Express.js](https://img.shields.io/badge/-Express.js-000?&logo=Express)
 
-##### Databases & Storage
+#### Databases & Storage
 
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-000?&logo=PostgreSQL)
-![SQLite](https://img.shields.io/badge/-SQLite-000?&logo=SQLite)
-![Redis](https://img.shields.io/badge/-Redis-000?&logo=Redis)
-![Supabase](https://img.shields.io/badge/-Supabase-000?&logo=Supabase)
-![Firebase](https://img.shields.io/badge/-Firebase-000?&logo=Firebase)
-![SQL](https://img.shields.io/badge/-SQL-000?&logo=SQL)
 ![MongoDB](https://img.shields.io/badge/-MongoDB-000?&logo=MongoDB)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-000?&logo=PostgreSQL)
+![Redis](https://img.shields.io/badge/-Redis-000?&logo=Redis)
+![SQLite](https://img.shields.io/badge/-SQLite-000?&logo=SQLite)
 
-##### DevOps & Tools
+#### Cloud & Infrastructure
 
-![Git](https://img.shields.io/badge/-Git-000?&logo=Git)
-![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-000?&logo=GitHubActions)
+![AWS](https://img.shields.io/badge/-AWS-000?&logo=Amazon-AWS)
+![Terraform](https://img.shields.io/badge/-Terraform-000?&logo=Terraform)
+![Ansible](https://img.shields.io/badge/-Ansible-000?&logo=Ansible)
+
+#### DevOps & Containers
+
 ![Docker](https://img.shields.io/badge/-Docker-000?&logo=Docker)
 ![Docker Compose](https://img.shields.io/badge/-Docker%20Compose-000?&logo=Docker)
+![Kubernetes](https://img.shields.io/badge/-Kubernetes-000?&logo=Kubernetes)
+![Git](https://img.shields.io/badge/-Git-000?&logo=Git)
+![Nginx](https://img.shields.io/badge/-Nginx-000?&logo=Nginx)
+
+#### CI/CD
+
+![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-000?&logo=GitHubActions)
 ![Jenkins](https://img.shields.io/badge/-Jenkins-000?&logo=Jenkins)
 
-##### Authentication & Security
+#### Monitoring & Observability
+
+![Prometheus](https://img.shields.io/badge/-Prometheus-000?&logo=Prometheus)
+![Grafana](https://img.shields.io/badge/-Grafana-000?&logo=Grafana)
+![Winston](https://img.shields.io/badge/-Winston-000?&logo=Winston)
+
+#### Messaging & Performance
+
+![Kafka](https://img.shields.io/badge/-Kafka-000?&logo=ApacheKafka)
+![RabbitMQ](https://img.shields.io/badge/-RabbitMQ-000?&logo=RabbitMQ)
+
+#### Authentication & Security
 
 ![JWT](https://img.shields.io/badge/-JWT-000?&logo=JSON%20Web%20Tokens)
 ![OAuth](https://img.shields.io/badge/-OAuth-000?&logo=OAuth)
 
-##### Testing
+#### Testing
 
 ![Jest](https://img.shields.io/badge/-Jest-000?&logo=Jest)
-![Chai](https://img.shields.io/badge/-Chai-000?&logo=Chai)
 ![Mocha](https://img.shields.io/badge/-Mocha-000?&logo=Mocha)
+![Chai](https://img.shields.io/badge/-Chai-000?&logo=Chai)
 ![SuperTest](https://img.shields.io/badge/-SuperTest-000?&logo=SuperTest)
 
-##### Logging & Monitoring
-
-![Winston](https://img.shields.io/badge/-Winston-000?&logo=Winston)
-![Grafana](https://img.shields.io/badge/-Grafana-000?&logo=Grafana)
-![Prometheus](https://img.shields.io/badge/-Prometheus-000?&logo=Prometheus)
-
-##### Messaging & Performance
-
-![Kafka](https://img.shields.io/badge/-Kafka-000?&logo=ApacheKafka)
-![Load Impact](https://img.shields.io/badge/-Load%20Impact-000?&logo=LoadImpact)
-
-##### API Documentation
+#### API Documentation
 
 ![Swagger](https://img.shields.io/badge/-Swagger-000?&logo=Swagger)
 ![OpenAPI](https://img.shields.io/badge/-OpenAPI-000?&logo=OpenAPI)
