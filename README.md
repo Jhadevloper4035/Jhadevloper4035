@@ -27,7 +27,7 @@
 | 🎯 **Goal** | DevOps / SRE at a Top Product Company |
 | 📝 **Writing** | Technical articles on [Medium](https://medium.com/@navrojjha21) |
 | ☁️ **AWS** | SAA-C03 (Preparing) |
-| 🎓 **Education** | BCA (Online, In Progress) |
+
 
 ---
 
