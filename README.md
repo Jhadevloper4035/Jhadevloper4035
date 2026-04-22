@@ -1,127 +1,172 @@
-<a href="https://www.linkedin.com/in/navroj-kumar-jha/" target="_blank" style="z-index: 100">
-  <img align="right" src="https://github.com/navrojkumarjha/navrojkumarjha/raw/main/res/alias.png" height="144px"/>
-</a>
+<!-- Header -->
+<h1 align="center">👋 Hey, I'm Navroj Jha</h1>
 
-# Hi there 👋️
+<p align="center">
+  <b>🚀 Backend Engineer → DevOps/SRE Engineer | CI/CD | Cloud Infrastructure | Infra as Code</b>
+</p>
 
-## I'm Navroj Kumar Jha
-
-**Transitioning to DevOps & Cloud Engineering** — 3 years of backend development experience, now building a career in infrastructure, automation, and cloud.
-
----
-
-### 🗺️ My Journey
-
-I started as a **Backend Developer** — spending 3 years building production-grade Node.js services, REST APIs, and database-driven applications. I worked close to the metal: writing auth systems, designing schemas, integrating message queues, and shipping features across multiple client products.
-
-Then at my company, I got introduced to **DevOps**. I was pulled into deployments, server setups, and CI/CD pipelines — and something clicked. I saw how the infrastructure side worked, how Docker containers changed deployment, how Nginx proxied traffic, how EC2 instances were provisioned on AWS. I went from writing code to thinking about *how that code lives, scales, and survives in production*.
-
-That experience changed the direction I want to take my career. I fell in love with the infrastructure layer — the automation, the reliability engineering, the IaC mindset. Since then I've been deliberately building toward a **DevOps and Cloud Engineering** role, learning Terraform, Ansible, Kubernetes, and going deep on AWS.
-
-**My backend years aren't behind me — they're my edge.** I understand the applications I'm deploying. I know why a service is slow, what a database connection pool issue looks like, and how a bad config can bring down a Node.js process. That developer empathy is something most pure-infrastructure engineers don't have.
+<p align="center">
+  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://github.com/Jhadevloper4035"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://medium.com/@navrojjha21"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/your-linkedin"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+</p>
 
 ---
 
-### 🌱 Interests
-
-_**Cloud Infrastructure & IaC**_ · _**CI/CD Automation**_ · _**Container Orchestration**_ · _**Site Reliability Engineering**_
+> *"I don't just write code — I ship it, scale it, and make sure it never goes down."*
 
 ---
 
-### 🌟 Currently Focused On
+## ⚡ Quick Profile
 
-- Provisioning and managing **AWS** infrastructure with **Terraform** (IaC)
-- Automating configuration management and deployments with **Ansible**
-- Building end-to-end **CI/CD pipelines** — GitHub Actions & Jenkins
-- Running containerised workloads with **Docker** and **Kubernetes**
-- Setting up **Prometheus + Grafana** observability stacks
-- Pursuing **AWS Solutions Architect** certification
-
----
-
-### 🛠 What I Bring
-
-#### 🚀 DevOps & Cloud *(Career Direction)*
-
-- **AWS** — EC2, S3, IAM, VPC, Route 53, RDS, CloudWatch, Security Groups
-- **Infrastructure as Code** — Terraform (provisioning), Ansible (configuration management)
-- **Containers** — Docker, Docker Compose, Kubernetes (pods, deployments, services, ingress, namespaces)
-- **CI/CD** — GitHub Actions & Jenkins: build → test → dockerize → push → deploy
-- **Monitoring** — Prometheus, Grafana dashboards, log pipelines
-- **Networking** — Nginx (reverse proxy, SSL termination, load balancing), DNS management
-- **Messaging** — Kafka, RabbitMQ
-
-#### 💻 Backend Development *(3 Years Production Experience)*
-
-3 years shipping backend systems across multiple products — APIs, auth, databases, queues. This is the foundation that makes me a better DevOps engineer.
-
-- **Runtime** — Node.js · Express.js · JavaScript
-- **Databases** — MongoDB · PostgreSQL · Redis
-- **Auth** — JWT · OAuth · refresh token rotation · rate limiting
-- **Messaging** — RabbitMQ · BullMQ · Kafka integrations
-- **Testing** — Jest · Mocha · Chai · SuperTest
-- **API Docs** — Swagger · OpenAPI
+| | |
+|---|---|
+| 📍 **Location** | Delhi, India |
+| 💼 **Experience** | 3 Years Backend Engineering |
+| 🎯 **Goal** | DevOps / SRE at a Top Product Company |
+| 📝 **Writing** | Technical articles on [Medium](https://medium.com/@navrojjha21) |
+| ☁️ **AWS** | SAA-C03 (Preparing) |
+| 🎓 **Education** | BCA (Online, In Progress) |
 
 ---
 
-### 🧰 Tech Stack
+## 🔭 What I'm Working On
 
-#### ☁️ Cloud & Infrastructure
+- 🔧 Building **[PipeIQ](https://github.com/Jhadevloper4035)** — a CI/CD analytics SaaS (GitHub Actions cost tracker + DORA metrics)
+- ☁️ Provisioning production infra with **Terraform + ECS Fargate + RDS + SQS** on AWS
+- 📊 Integrating **Prometheus + Grafana** for observability pipelines
+- 🐳 Designing multi-container setups with **Docker Compose & Kubernetes**
+- 🚀 Building real-world **GitHub Actions CI/CD pipelines** with OIDC federation
+- 📖 Preparing for **AWS Certified Solutions Architect – Associate (SAA-C03)**
 
-![AWS](https://img.shields.io/badge/-AWS-000?&logo=Amazon-AWS)
-![Terraform](https://img.shields.io/badge/-Terraform-000?&logo=Terraform)
-![Ansible](https://img.shields.io/badge/-Ansible-000?&logo=Ansible)
+---
 
-#### 📦 Containers & Orchestration
+## 🛠️ Tech Stack & Tools
 
-![Docker](https://img.shields.io/badge/-Docker-000?&logo=Docker)
-![Docker Compose](https://img.shields.io/badge/-Docker%20Compose-000?&logo=Docker)
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-000?&logo=Kubernetes)
+### ☁️ Cloud & DevOps
+<p>
+  <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/>
+</p>
 
-#### 🔁 CI/CD
+### 📊 Observability
+<p>
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white"/>
+</p>
 
-![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-000?&logo=GitHubActions)
-![Jenkins](https://img.shields.io/badge/-Jenkins-000?&logo=Jenkins)
+### 💻 Backend & Databases
+<p>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white"/>
+</p>
 
-#### 📊 Monitoring & Observability
+### 🌐 Frontend & Tools
+<p>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Stripe-008CDD?style=flat-square&logo=stripe&logoColor=white"/>
+</p>
 
-![Prometheus](https://img.shields.io/badge/-Prometheus-000?&logo=Prometheus)
-![Grafana](https://img.shields.io/badge/-Grafana-000?&logo=Grafana)
-![Winston](https://img.shields.io/badge/-Winston-000?&logo=Winston)
+---
 
-#### 🌐 Networking & Proxy
+## 🌟 Featured Projects
 
-![Nginx](https://img.shields.io/badge/-Nginx-000?&logo=Nginx)
+### 🔁 PipeIQ — CI/CD Analytics SaaS *(In Progress)*
+> Helping engineering teams track GitHub Actions costs, measure DORA metrics, and detect flaky pipelines.
 
-#### ⚙️ Backend & Runtime
+- **Stack:** Node.js/Express · Next.js · RDS PostgreSQL (RLS) · ElastiCache Redis · SQS · ECS Fargate · Terraform
+- **Architecture:** GitHub App (org-scoped installs) → HMAC-verified webhooks → SQS → async analytics processor
+- **Pricing:** Free / Pro $29 / Team $79 per org · Stripe billing
 
-![Node.js](https://img.shields.io/badge/-Node.js-000?&logo=Node.js)
-![JavaScript](https://img.shields.io/badge/-JavaScript-000?&logo=JavaScript)
-![Express.js](https://img.shields.io/badge/-Express.js-000?&logo=Express)
+---
 
-#### 🗄️ Databases & Storage
+### 🛒 Dockerized E-commerce Platform
+> Full-stack e-commerce app with Docker Compose, Redis caching, Razorpay payments, and AWS deployment.
 
-![MongoDB](https://img.shields.io/badge/-MongoDB-000?&logo=MongoDB)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-000?&logo=PostgreSQL)
-![Redis](https://img.shields.io/badge/-Redis-000?&logo=Redis)
+- Multi-tenant frontend (Next.js 15) + Node.js backend + MongoDB
+- CI/CD via GitHub Actions → AWS ECR → EC2 with Nginx + SSL
+- Cart, wishlist, product compare, OTP auth, JWT refresh rotation
 
-#### 📨 Messaging
+---
 
-![Kafka](https://img.shields.io/badge/-Kafka-000?&logo=ApacheKafka)
-![RabbitMQ](https://img.shields.io/badge/-RabbitMQ-000?&logo=RabbitMQ)
+### 📋 Lead Management System (Skydecor)
+> Enterprise CRM for a B2B interior brand — deployed on AWS EC2 with full RBAC, S3 uploads, and Excel exports.
 
-#### 🔐 Auth & Security
+- Role-based access: Admin / Event / Showroom / Website
+- S3 presigned uploads · PM2 · Nginx reverse proxy · Let's Encrypt SSL
+- React + Zustand frontend refactored from EJS monolith
 
-![JWT](https://img.shields.io/badge/-JWT-000?&logo=JSON%20Web%20Tokens)
-![OAuth](https://img.shields.io/badge/-OAuth-000?&logo=OAuth)
+---
 
-#### 🧪 Testing
+### 🚀 Cloud Resume / DevOps Projects
+> [![AWS Labs](https://img.shields.io/badge/AWS_Labs-GitHub-181717?style=flat-square&logo=github)](https://github.com/Jhadevloper4035)
+> [![BulkBuy India](https://img.shields.io/badge/BulkBuy_India_(Spring_Boot_Microservices)-GitHub-181717?style=flat-square&logo=github)](https://github.com/Jhadevloper4035)
 
-![Jest](https://img.shields.io/badge/-Jest-000?&logo=Jest)
-![Mocha](https://img.shields.io/badge/-Mocha-000?&logo=Mocha)
-![Chai](https://img.shields.io/badge/-Chai-000?&logo=Chai)
-![SuperTest](https://img.shields.io/badge/-SuperTest-000?&logo=SuperTest)
+---
 
-#### 🔧 Version Control
+## 📝 Technical Writing on Medium
 
-![Git](https://img.shields.io/badge/-Git-000?&logo=Git)
+| Article | Topic |
+|---------|-------|
+| 🐳 Docker Multi-Stage Builds | Docker · DevOps |
+| ⚙️ GitHub Actions Matrix Strategy | CI/CD · Automation |
+| 🔐 SELinux Deep Dive | Linux Security |
+| ☁️ AWS SAA-C03 Study Notes | Cloud · Certification |
+
+> 👉 [@navrojjha21 on Medium](https://medium.com/@navrojjha21)
+
+---
+
+## 🗺️ DevOps Learning Journey
+
+| Phase | Tools & Concepts | Status |
+|-------|-----------------|--------|
+| ✅ | Git, GitHub, Linux, Bash | Completed |
+| ✅ | Docker, Docker Compose | Completed |
+| ✅ | GitHub Actions CI/CD, ECR, EC2 | Completed |
+| ✅ | AWS Core (IAM, EC2, S3, VPC, RDS, SQS) | Completed |
+| 🔄 | Terraform — Infra as Code | In Progress |
+| 🔄 | Prometheus + Grafana (Observability) | In Progress |
+| 🔄 | Golang (KodeKloud) | In Progress |
+| 🔜 | Kubernetes, Ansible, Jenkins | Coming Soon |
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Jhadevloper4035&show_icons=true&theme=tokyonight&hide_border=true" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jhadevloper4035&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jhadevloper4035&theme=tokyonight&hide_border=true"/>
+</p>
+
+---
+
+## 🤝 Let's Connect
+
+<p>
+  <a href="https://medium.com/@navrojjha21"><img src="https://img.shields.io/badge/Medium-Read_My_Articles-12100E?style=for-the-badge&logo=medium&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/your-linkedin"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+</p>
+
+> *"Infrastructure is the product. Reliability is the feature."* — Navroj Jha
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Jhadevloper4035&color=blueviolet&style=flat-square&label=Profile+Views"/>
+</p>
