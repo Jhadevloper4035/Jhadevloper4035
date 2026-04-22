@@ -27,6 +27,7 @@
 | 🎯 **Goal** | DevOps / SRE at a Top Product Company |
 | 📝 **Writing** | Technical articles on [Medium](https://medium.com/@navrojjha21) |
 | ☁️ **AWS** | SAA-C03 (Preparing) |
+| 🎓 **Education** | BCA (Online, In Progress) |
 
 ---
 
@@ -114,110 +115,185 @@
 
 ---
 
-## 🏗️ Backend Engineering — What I Actually Know
+## 🏗️ Backend Engineering — Senior Level
 
-> 3 years of production backend work. Not tutorials — real systems, real bugs, real scale decisions.
+> 3+ years building production systems across multiple languages and stacks. Not tutorials — real services, real incidents, real architectural trade-offs.
+
+### 🧩 Languages at a Glance
+
+| Language | Level | Used For |
+|----------|-------|----------|
+| **Node.js** | ⭐⭐⭐⭐⭐ Production | REST APIs, SaaS backends, webhook receivers, e-commerce |
+| **Java** | ⭐⭐⭐⭐ Production | Spring Boot microservices (BulkBuy India on AWS EC2) |
+| **Go** | ⭐⭐⭐ Active Learning | CLI tools, high-perf services, DevOps tooling (KodeKloud) |
+| **Python** | ⭐⭐⭐ Proficient | Scripting, automation, data pipelines, DevOps tooling |
+
+---
 
 <details>
-<summary><b>🔐 Auth & Security</b></summary>
+<summary><b>🟢 Node.js / Express — Deep Expertise</b></summary>
 
-- JWT access + refresh token rotation with Redis blacklisting
-- Stateless sessions with httpOnly cookies, CSRF mitigation
-- Role-based access control (RBAC) with middleware-level guards
-- HMAC-SHA256 webhook signature verification (GitHub App pattern)
-- Bcrypt password hashing, OTP-based verification flows
-- Multi-tenant Row-Level Security (RLS) in PostgreSQL via `SET app.current_org_id`
+- **Architecture:** Layered (routes → controllers → services → repositories), clean separation of concerns
+- **Auth:** JWT access + refresh token rotation, Redis blacklist, httpOnly cookies, CSRF mitigation
+- **RBAC:** Middleware-level role guards (Admin / Event / Showroom / Website roles in production)
+- **Async patterns:** Promise chains, async/await, event emitters, stream processing
+- **Webhook receivers:** HMAC-SHA256 verification → SQS enqueue → immediate 200 → async processing
+- **Performance:** Cluster mode (PM2), connection pooling, Redis hot-data caching, cursor-based pagination
+- **Validation:** Zod/Joi schema validation, structured error envelopes, OpenAPI docs
+- **Real projects:** PipeIQ SaaS, Skydecor LMS, Curve & Comfort e-commerce, multiple client APIs
 
 </details>
 
 <details>
-<summary><b>⚡ Performance & Caching</b></summary>
+<summary><b>☕ Java / Spring Boot — Production Microservices</b></summary>
 
-- Redis for session caching, rate limiting, and hot-data lookup (org_id → GitHub install token)
-- DB query optimization: indexes, covering indexes, EXPLAIN ANALYZE
-- S3 presigned URL pattern for direct client uploads (no server bottleneck)
-- Lazy loading, pagination, cursor-based pagination for large datasets
-- Background job processing with SQS queues — immediate 200, async processing
-
-</details>
-
-<details>
-<summary><b>📨 Async & Event-Driven</b></summary>
-
-- SQS queue consumers with dead-letter queues (DLQ) and retry policies
-- RabbitMQ email queues with OTP delivery pipelines
-- Webhook receiver pattern: validate → enqueue → respond → process async
-- Event-driven architecture: GitHub webhook → resolve org → SQS → analytics processor
+- **Framework:** Spring Boot, Spring MVC, Spring Data JPA, Spring Security
+- **Microservices:** Service decomposition, inter-service REST communication, shared DB vs DB-per-service
+- **Deployment:** Dockerized Spring Boot app deployed to AWS EC2 (BulkBuy India)
+- **ORM:** Hibernate/JPA with entity relationships, lazy vs eager loading trade-offs
+- **Build:** Maven, multi-module projects, Docker multi-stage builds for slim JARs
+- **Patterns:** Repository pattern, DTO mapping, global exception handlers, @Transactional boundaries
 
 </details>
 
 <details>
-<summary><b>🗄️ Databases</b></summary>
+<summary><b>🐹 Go (Golang) — Learning → Building</b></summary>
 
-- **PostgreSQL:** Transactions, joins, RLS policies, Sequelize ORM, schema design for multi-tenancy
-- **MongoDB:** Aggregation pipelines, indexing strategies, Mongoose schemas
-- **Redis:** TTL management, pub/sub patterns, cache invalidation strategies
-- Data modelling for SaaS: org-scoped isolation, Stripe customer mapping, feature flag tables
+- **Fundamentals:** Goroutines, channels, WaitGroups, context cancellation, defer/panic/recover
+- **Concurrency model:** CSP (Communicating Sequential Processes) vs shared memory, fan-out/fan-in patterns
+- **HTTP:** `net/http`, `chi`/`gin` routers, middleware chains, graceful shutdown
+- **Tooling use-cases:** Building lightweight CLI tools, high-throughput webhook processors, DevOps automation
+- **Why Go for DevOps:** Static binaries, tiny Docker images, native concurrency for parallel infra tasks
+- **Current focus:** KodeKloud Go curriculum + building Go-based DevOps utilities
 
 </details>
 
 <details>
-<summary><b>🏛️ API Design</b></summary>
+<summary><b>🐍 Python — Scripting, Automation & Data</b></summary>
 
-- RESTful API design: resource naming, HTTP verbs, status codes, error envelopes
-- Versioned API routes, middleware chains, request validation (Zod/Joi)
-- Idempotency keys for payment and webhook endpoints
-- API rate limiting with Redis sliding window counters
-- OpenAPI/Swagger documentation
+- **DevOps scripting:** Boto3 (AWS SDK) — EC2, S3, SQS automation scripts
+- **Data pipelines:** pandas for log parsing and CI metrics aggregation
+- **Automation:** Shell script replacement for complex orchestration, cron-driven data jobs
+- **Web:** Flask for lightweight internal tools and webhook handlers
+- **Tooling:** `argparse` CLI tools, YAML/JSON config parsers, GitHub API automation scripts
+
+</details>
+
+<details>
+<summary><b>🗄️ Databases — PostgreSQL, MongoDB, Redis</b></summary>
+
+**PostgreSQL (Advanced)**
+- Multi-tenant Row-Level Security: `CREATE POLICY`, `SET app.current_org_id` on every connection
+- Transactions with proper isolation levels (READ COMMITTED vs REPEATABLE READ)
+- Index design: B-tree, partial indexes, covering indexes — EXPLAIN ANALYZE driven
+- Schema design for SaaS: orgs → users → resources with RLS enforcement
+- Sequelize ORM + raw query fallback for complex reporting queries
+- Connection pooling with `pg-pool`, prepared statements for high-frequency queries
+
+**MongoDB (Proficient)**
+- Aggregation pipelines: `$lookup`, `$group`, `$facet` for analytics
+- Index strategies: compound indexes, text indexes, TTL indexes for session expiry
+- Schema design: embedding vs referencing trade-off decisions
+- Mongoose with discriminators for polymorphic schemas
+- Change streams for real-time event processing
+
+**Redis (Applied)**
+- Session store with TTL, JWT blacklist with expiry-aligned TTLs
+- Rate limiting with sliding window (ZADD + ZRANGEBYSCORE + atomic MULTI/EXEC)
+- Hot-data cache: org_id → GitHub install token (avoid DB hit on every webhook)
+- Pub/Sub for lightweight internal event broadcasting
+- Cache invalidation strategies: write-through, TTL-based, event-triggered
+
+</details>
+
+<details>
+<summary><b>🔐 Auth, Security & API Design</b></summary>
+
+- **OAuth2 / GitHub App:** Org-scoped installation tokens, PKCE, state parameter CSRF protection
+- **JWT:** RS256 vs HS256 trade-offs, short-lived access tokens, refresh rotation, silent refresh
+- **HMAC webhooks:** SHA-256 signature verification, timing-safe comparison (`crypto.timingSafeEqual`)
+- **API hardening:** Helmet.js, CORS policy, rate limiting per IP/user, input sanitization
+- **REST design:** Resource-oriented URLs, correct status codes, idempotency keys for payments/webhooks
+- **Versioning:** URL versioning (`/v1/`), deprecation headers, backward-compatible changes
+
+</details>
+
+<details>
+<summary><b>📨 Async, Queues & Event-Driven Architecture</b></summary>
+
+- **SQS:** Standard vs FIFO queues, visibility timeout tuning, DLQ configuration, batch processing
+- **RabbitMQ:** Exchange types (direct/topic/fanout), consumer acknowledgments, OTP email queues
+- **Patterns:** Outbox pattern, saga for distributed transactions, event sourcing basics
+- **Webhook pipeline:** Receive → validate HMAC → resolve org from Redis → enqueue SQS → 200 OK → async worker
+- **Retry logic:** Exponential backoff, idempotency keys, poison pill detection via DLQ
 
 </details>
 
 ---
 
-## 🧠 System Design — How I Think at Scale
+## 🧠 System Design — Senior-Level Thinking
 
 <details>
-<summary><b>📐 Patterns I've Applied in Real Projects</b></summary>
+<summary><b>📐 Design Patterns Applied in Real Production Code</b></summary>
 
-| Pattern | Where I Used It |
-|---------|----------------|
-| **Webhook Fan-out via SQS** | PipeIQ — GitHub events → queue → async analytics |
-| **Multi-tenant RLS** | PipeIQ — PostgreSQL per-org data isolation |
-| **Presigned URL Upload** | Skydecor LMS — S3 direct uploads without server relay |
-| **JWT Refresh Rotation** | E-commerce auth — token theft mitigation |
-| **Redis Token Blacklist** | Logout invalidation across distributed sessions |
-| **DLQ + Retry Policy** | SQS dead-letter queues for failed webhook processing |
-| **OIDC Federation** | GitHub Actions → AWS without long-lived IAM keys |
-| **Reverse Proxy + TLS** | Nginx + Let's Encrypt in front of Node.js apps on EC2 |
-| **PM2 Cluster Mode** | Zero-downtime restarts, multi-core utilization |
-| **Docker Multi-Stage Build** | Slim production images, separate build/runtime layers |
+| Pattern | Project | Trade-off Understood |
+|---------|---------|---------------------|
+| **Multi-tenant RLS** | PipeIQ | RLS vs schema-per-tenant vs DB-per-tenant |
+| **Webhook Fan-out → SQS** | PipeIQ | Pull vs push, at-least-once delivery |
+| **JWT Refresh Rotation** | E-commerce | Stateless vs stateful, revocation latency |
+| **Redis Token Blacklist** | Multiple | Memory cost vs security guarantee |
+| **Presigned S3 Upload** | Skydecor | Server relay cost vs client-direct trade-off |
+| **OIDC Federation** | GitHub Actions | No long-lived secrets, scoped assume-role |
+| **DLQ + Retry Policy** | PipeIQ SQS | Visibility timeout, max receive count tuning |
+| **Nginx Reverse Proxy** | EC2 deploys | SSL termination, upstream health checks |
+| **Docker Multi-Stage** | All projects | Build layer vs runtime layer size reduction |
+| **PM2 Cluster Mode** | Node apps | Worker threads, IPC, graceful reload |
 
 </details>
 
 <details>
-<summary><b>🔍 System Design Topics I Can Walk Through</b></summary>
+<summary><b>🔍 System Design Problems I Can Architect End-to-End</b></summary>
 
-- **Design a URL Shortener** — Hash collisions, base62 encoding, Redis caching, DB write patterns
-- **Design a Rate Limiter** — Token bucket vs sliding window, Redis atomic ops, distributed state
-- **Design a Notification System** — SQS fanout, retry logic, delivery guarantees, idempotency
-- **Design a Multi-Tenant SaaS** — Org isolation strategies (RLS vs schema-per-tenant vs DB-per-tenant)
-- **Design a CI/CD Cost Tracker** *(PipeIQ)* — Webhook ingestion, async processing, DORA metric computation
-- **Design a File Upload System** — Presigned URLs, multipart upload, virus scanning pipeline
-- **Design an Auth System** — OAuth2 flows, JWT vs sessions, refresh token rotation, PKCE
-- **Design an API Gateway** — Rate limiting, auth middleware, request routing, observability hooks
+| Problem | Key Decisions |
+|---------|--------------|
+| **URL Shortener** | Base62 encoding, hash collision handling, Redis cache layer, write-heavy DB design |
+| **Rate Limiter** | Token bucket vs sliding window log vs fixed window, Redis atomicity with Lua scripts |
+| **Distributed Job Queue** | SQS vs Kafka vs RabbitMQ, at-least-once vs exactly-once, consumer scaling |
+| **Multi-Tenant SaaS** | RLS vs schema isolation vs DB isolation, connection pooling implications |
+| **Notification Service** | Fan-out on write vs read, SNS + SQS topology, delivery guarantees, unsubscribe |
+| **CI/CD Cost Tracker** *(PipeIQ)* | Webhook ingestion, runner cost formula, DORA metric computation, time-series queries |
+| **File Upload Pipeline** | Presigned URLs, multipart upload, virus scan queue, metadata extraction |
+| **Auth System** | OAuth2 flows (PKCE, auth code, client credentials), session vs JWT, SSO, MFA |
+| **API Gateway** | Auth middleware, rate limiting, circuit breaker, request routing, observability |
+| **Microservices Communication** | Sync REST vs async events, service mesh basics, distributed tracing |
 
 </details>
 
 <details>
-<summary><b>☁️ AWS Architecture Decisions I Understand</b></summary>
+<summary><b>☁️ AWS Architecture Trade-offs I Reason About</b></summary>
 
-- **ECS Fargate vs EC2:** When to go serverless containers vs managed instances
-- **RDS vs DynamoDB:** ACID requirements, query patterns, multi-tenant isolation trade-offs
-- **SQS vs SNS vs EventBridge:** Fan-out patterns, ordering guarantees, DLQ strategies
-- **ALB vs NLB vs API Gateway:** L7 routing, WebSocket support, cost-per-request models
-- **S3 + CloudFront:** Static asset CDN, cache invalidation, presigned URL patterns
-- **Secrets Manager vs Parameter Store:** Rotation policies, cost trade-offs, app integration
-- **VPC design:** Public/private subnets, NAT gateway, security groups, NACLs
+| Decision | My Reasoning Framework |
+|----------|----------------------|
+| **ECS Fargate vs EC2** | Operational overhead vs cost at scale, spot instances for batch workloads |
+| **RDS vs DynamoDB** | ACID requirements, access pattern flexibility, multi-tenant isolation model |
+| **SQS vs SNS vs EventBridge** | Fan-out topology, event schema registry, ordering guarantees, DLQ |
+| **ALB vs API Gateway** | Per-request pricing vs fixed cost, WebSocket needs, auth integration |
+| **S3 + CloudFront** | Cache-Control headers, invalidation cost, presigned URL expiry alignment |
+| **Secrets Manager vs SSM Parameter Store** | Rotation automation, cost per secret, SDK integration patterns |
+| **NAT Gateway vs NAT Instance** | Cost at scale vs HA trade-off for private subnet egress |
+| **Multi-AZ RDS vs Read Replicas** | Failover RTO vs read scaling — not the same problem |
+
+</details>
+
+<details>
+<summary><b>📏 Senior Engineering Principles I Follow</b></summary>
+
+- **Fail fast, fail loudly** — structured error logging, alerting on SLO breaches, no silent failures
+- **Design for operability** — every service has health endpoints, structured logs (JSON), and metrics
+- **Security by default** — least privilege IAM, secrets in Secrets Manager, no hardcoded credentials
+- **Idempotency everywhere** — webhooks, payment events, queue consumers — always safe to retry
+- **Build for the on-call engineer** — runbooks, meaningful alert names, dashboards before incidents
+- **Scale the bottleneck, not everything** — profile first, optimize the measured hot path
 
 </details>
 
