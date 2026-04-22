@@ -27,6 +27,7 @@
 | 🎯 **Goal** | DevOps / SRE at a Top Product Company |
 | 📝 **Writing** | Technical articles on [Medium](https://medium.com/@navrojjha21) |
 | ☁️ **AWS** | SAA-C03 (Preparing) |
+| 🎓 **Education** | BCA (Online, In Progress) |
 
 ---
 
@@ -111,6 +112,115 @@
 ### 🚀 Cloud Resume / DevOps Projects
 > [![AWS Labs](https://img.shields.io/badge/AWS_Labs-GitHub-181717?style=flat-square&logo=github)](https://github.com/Jhadevloper4035)
 > [![BulkBuy India](https://img.shields.io/badge/BulkBuy_India_(Spring_Boot_Microservices)-GitHub-181717?style=flat-square&logo=github)](https://github.com/Jhadevloper4035)
+
+---
+
+## 🏗️ Backend Engineering — What I Actually Know
+
+> 3 years of production backend work. Not tutorials — real systems, real bugs, real scale decisions.
+
+<details>
+<summary><b>🔐 Auth & Security</b></summary>
+
+- JWT access + refresh token rotation with Redis blacklisting
+- Stateless sessions with httpOnly cookies, CSRF mitigation
+- Role-based access control (RBAC) with middleware-level guards
+- HMAC-SHA256 webhook signature verification (GitHub App pattern)
+- Bcrypt password hashing, OTP-based verification flows
+- Multi-tenant Row-Level Security (RLS) in PostgreSQL via `SET app.current_org_id`
+
+</details>
+
+<details>
+<summary><b>⚡ Performance & Caching</b></summary>
+
+- Redis for session caching, rate limiting, and hot-data lookup (org_id → GitHub install token)
+- DB query optimization: indexes, covering indexes, EXPLAIN ANALYZE
+- S3 presigned URL pattern for direct client uploads (no server bottleneck)
+- Lazy loading, pagination, cursor-based pagination for large datasets
+- Background job processing with SQS queues — immediate 200, async processing
+
+</details>
+
+<details>
+<summary><b>📨 Async & Event-Driven</b></summary>
+
+- SQS queue consumers with dead-letter queues (DLQ) and retry policies
+- RabbitMQ email queues with OTP delivery pipelines
+- Webhook receiver pattern: validate → enqueue → respond → process async
+- Event-driven architecture: GitHub webhook → resolve org → SQS → analytics processor
+
+</details>
+
+<details>
+<summary><b>🗄️ Databases</b></summary>
+
+- **PostgreSQL:** Transactions, joins, RLS policies, Sequelize ORM, schema design for multi-tenancy
+- **MongoDB:** Aggregation pipelines, indexing strategies, Mongoose schemas
+- **Redis:** TTL management, pub/sub patterns, cache invalidation strategies
+- Data modelling for SaaS: org-scoped isolation, Stripe customer mapping, feature flag tables
+
+</details>
+
+<details>
+<summary><b>🏛️ API Design</b></summary>
+
+- RESTful API design: resource naming, HTTP verbs, status codes, error envelopes
+- Versioned API routes, middleware chains, request validation (Zod/Joi)
+- Idempotency keys for payment and webhook endpoints
+- API rate limiting with Redis sliding window counters
+- OpenAPI/Swagger documentation
+
+</details>
+
+---
+
+## 🧠 System Design — How I Think at Scale
+
+<details>
+<summary><b>📐 Patterns I've Applied in Real Projects</b></summary>
+
+| Pattern | Where I Used It |
+|---------|----------------|
+| **Webhook Fan-out via SQS** | PipeIQ — GitHub events → queue → async analytics |
+| **Multi-tenant RLS** | PipeIQ — PostgreSQL per-org data isolation |
+| **Presigned URL Upload** | Skydecor LMS — S3 direct uploads without server relay |
+| **JWT Refresh Rotation** | E-commerce auth — token theft mitigation |
+| **Redis Token Blacklist** | Logout invalidation across distributed sessions |
+| **DLQ + Retry Policy** | SQS dead-letter queues for failed webhook processing |
+| **OIDC Federation** | GitHub Actions → AWS without long-lived IAM keys |
+| **Reverse Proxy + TLS** | Nginx + Let's Encrypt in front of Node.js apps on EC2 |
+| **PM2 Cluster Mode** | Zero-downtime restarts, multi-core utilization |
+| **Docker Multi-Stage Build** | Slim production images, separate build/runtime layers |
+
+</details>
+
+<details>
+<summary><b>🔍 System Design Topics I Can Walk Through</b></summary>
+
+- **Design a URL Shortener** — Hash collisions, base62 encoding, Redis caching, DB write patterns
+- **Design a Rate Limiter** — Token bucket vs sliding window, Redis atomic ops, distributed state
+- **Design a Notification System** — SQS fanout, retry logic, delivery guarantees, idempotency
+- **Design a Multi-Tenant SaaS** — Org isolation strategies (RLS vs schema-per-tenant vs DB-per-tenant)
+- **Design a CI/CD Cost Tracker** *(PipeIQ)* — Webhook ingestion, async processing, DORA metric computation
+- **Design a File Upload System** — Presigned URLs, multipart upload, virus scanning pipeline
+- **Design an Auth System** — OAuth2 flows, JWT vs sessions, refresh token rotation, PKCE
+- **Design an API Gateway** — Rate limiting, auth middleware, request routing, observability hooks
+
+</details>
+
+<details>
+<summary><b>☁️ AWS Architecture Decisions I Understand</b></summary>
+
+- **ECS Fargate vs EC2:** When to go serverless containers vs managed instances
+- **RDS vs DynamoDB:** ACID requirements, query patterns, multi-tenant isolation trade-offs
+- **SQS vs SNS vs EventBridge:** Fan-out patterns, ordering guarantees, DLQ strategies
+- **ALB vs NLB vs API Gateway:** L7 routing, WebSocket support, cost-per-request models
+- **S3 + CloudFront:** Static asset CDN, cache invalidation, presigned URL patterns
+- **Secrets Manager vs Parameter Store:** Rotation policies, cost trade-offs, app integration
+- **VPC design:** Public/private subnets, NAT gateway, security groups, NACLs
+
+</details>
 
 ---
 
